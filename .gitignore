@@ -1,0 +1,62 @@
+# Bench log files
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Node / frontend build cache
+node_modules/
+npm-debug.log*
+yarn.lock
+package-lock.json
+
+# Python virtualenv
+env/
+*.egg-info/
+.eggs/
+
+# Private and config files
+sites/*/private/
+sites/*/public/backups/
+sites/*/public/files/
+sites/*/public/temp/
+sites/*/public/hub/
+sites/*/locks/
+sites/*/error-snapshots/
+sites/*/task-logs/
+sites/*/scheduler-logs/
+sites/*/logs/
+sites/*/site_config.json
+
+# Cache and generated assets
+assets/
+sites/assets/
+sites/*/public/css/
+sites/*/public/js/
+sites/*/public/dist/
+sites/*/public/website_script.js
+sites/*/public/website_style.css
+
+# Patch state and database dumps
+patches.txt
+*.sql
+*.sql.gz
+
+# IDE / editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Bench backups
+backups/
+
+# Redis dump files
+*.rdb
