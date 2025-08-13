@@ -60,3 +60,5 @@ backups/
 
 # Redis dump files
 *.rdb
+
+config/pids/
