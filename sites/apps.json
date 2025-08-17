@@ -17,5 +17,15 @@
         "required": [],
         "idx": 2,
         "version": "15.75.0"
+    },
+    "rg28": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "42f1069bd47e1689a6b55b7018621d67b11248a3",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
     }
 }

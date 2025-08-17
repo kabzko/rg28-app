@@ -1,3 +1,5 @@
+*.DS_Store
+
 # Bench log files
 logs/
 *.log
@@ -52,7 +54,6 @@ patches.txt
 *.swo
 
 # OS-specific
-.DS_Store
 Thumbs.db
 
 # Bench backups
